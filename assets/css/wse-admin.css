@@ -1,0 +1,221 @@
+.wse-logo {
+    width: 60px;
+    padding-right: 10px;
+}
+
+
+/* Style the tab */
+.wse-tab {
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: 1px solid #f1f1f1;
+  font-weight: 500;
+}
+
+.wse-tab button {
+        background-color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    display: inline-block;
+ 
+    font-size: 15px;
+    color: #303030;
+}
+
+/* Change background color of buttons on hover */
+.wse-tab button:hover {
+  border-bottom: 2px solid #e93557;
+}
+
+/* Create an active/current tablink class */
+.wse-tab button.active {
+  border-bottom: 2px solid #e93557;
+  color: #e93557;
+}
+
+/* Style the tab content */
+.wse-tabcontent {
+  display: none;
+  background: rgb(255 255 255);
+  padding: 10px 20px 20px 20px;
+  border: 1px solid #eee;
+  border-top: none;
+}
+
+.wse-tabcontent, .wse-tabcontent p {
+  font-size: 16px;
+  color: #000;
+}
+
+/* Style the close button */
+.wse-topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.wse-topright:hover {color: red;}
+
+:root {
+  --black: #4d5974;
+  --red: #e07a5f;
+  --grey: #e5e5e5;
+}
+.wse-menu {
+       margin: 30px 0;
+   /* width: 450px;*/
+    font-size: 16px;
+}
+.wse-content-stolen-badge{
+  background-color: #fff;
+  padding: 21px 12px;
+  margin-top: 14px;
+  display: inline-block;
+  border: 1px solid #d8d8e3;
+  width: 98%;
+  border-left: 4px solid #e8325f;
+}
+.wse-badge-left {
+  float: left;
+}
+.wse-badge-right {
+  float: left;
+}
+.wse-badge-right p{
+  font-size: 16px;
+  color: #000;
+}
+
+.wse-badge-right-btn {
+  float: right;
+  padding-top: 18px;
+
+}
+.wse-badge-right-btn a{
+    padding: 12px 22px;
+
+}
+
+.wse-badge-left img{
+  width: 50px;
+}
+.wse-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wse-menu li {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+  font-size: 16px;
+}
+.wse-icon span {
+      position: absolute;
+    top: 10px;
+    right: 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.wse-icon span::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 6px;
+  width: 10px;
+  height: 2px;
+  background: var(--black);
+}
+.wse-icon span::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: 10px;
+  width: 2px;
+  height: 10px;
+  background: var(--black);
+}
+
+.wse-btn {
+  border: 1px solid #2271b1;
+  color: #2271b1;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.wse-flex-container{
+  display: flex;
+}
+#wse-help .wse-left-side {
+  width: 70%;
+}
+
+#wse-help .wse-right-side {
+  width: 30%;
+}
+
+.wse-hide{
+  display:none;
+}
+.wse-support-label {
+  margin-top: 4px;
+  float: left;
+  width: 70px;
+  font-size: 14px;
+}
+
+.wse-input{
+  background-color:#f9f9f6;
+}
+
+.wse-tooltip {
+  position: relative;
+  display: inline-block;
+  padding:0 8px;
+}
+
+.wse-tooltip .wse-tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+ 
+}
+
+.wse-tooltip .wse-tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.wse-tooltip :hover .wse-tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.wse-table-shortcode tr td{
+ padding-top:2%;
+}
+.wse_preview_link {
+  text-decoration: none;
+  font-size: 12px;
+}
